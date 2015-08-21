@@ -3,7 +3,7 @@ rm(list=ls())
 
 # Load necessary libraries and set working directory
 library(dplyr)
-setwd("C:\\Users\\mskead\\Google Drive\\Data Science Course\\Getting and cleaning data\\Data\\UCI HAR Dataset\\data\\UCI HAR Dataset")
+setwd("C:\\Users\\mskead\\Google Drive\\Data Science Course\\Getting and cleaning data\\Data\\UCI HAR Dataset")
 
 # Read tables into R
 subjectTest <- read.table("test/subject_test.txt")
