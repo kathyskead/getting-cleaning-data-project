@@ -20,9 +20,9 @@ Only the following datasets are read into R with the read.table() function:
 
 ##Step 3:
 The row_bind() function is used to combine datasets:
-The subject datasets are combined into one dataset named "subjectData"
-The x test and train datasets are combined into one dataset named "xData".
-The y test and train datasets are combined into one dataset named "yData".
+*    The subject_test and subject_train datasets are combined into one dataset named "subjectData".
+*    The x_test and x_train datasets are combined into one dataset named "xData".
+*    The y_test and y_train datasets are combined into one dataset named "yData".
 
 ##Step 4:
 The names() function is used to give variables in the datasets names:
