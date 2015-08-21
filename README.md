@@ -1,4 +1,4 @@
-#Getting and Cleaning Data Course Project
+#Getting and Cleaning Data Project
 This script prepares a tidy data set from data collected from accelerometers from the Samsung Galaxy S smartphone. The data is from the Human Activity Recognition Using SmartPhones Data Set found on the UCI Machine Learning Repository. Find a full description of the data here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The data can be downloaded here: 
