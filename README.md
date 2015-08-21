@@ -1,12 +1,14 @@
 ##Getting and Cleaning Data Course Project
 This script prepares a tidy data set from data collected from accelerometers from the Samsung Galaxy S smartphone. Find a full description of the data here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+The data can be downloaded here: 
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
 #Step 1:
-The script cleans up your work space.
-Loads the "dplyr" library and sets the working directory.
+The script cleans up the work space,loads the "dplyr" library and sets the working directory.
 
 #Step 2:
-The following datasets are read into R with the read.table() function:
+Only the following datasets are read into R with the read.table() function:
 
 test/subject_test.txt
 train/subject_train.txt
