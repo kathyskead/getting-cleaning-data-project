@@ -8,7 +8,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-#Attribute Information;
+#Attribute Information:
 For each record in the dataset it is provided: 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration. 
 - Triaxial Angular velocity from the gyroscope. 
@@ -17,9 +17,4 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 The following descriptive words were used to replace abbreviated names of variables in order to make the dataset more readable:
-For the prefix "t" (Time)
-For "Acc" (Accelerometer)
-For "Gyro" (Gyroscope)
-for "Mag" (Magnitude)
-For the prefix "f" (Frequency)
-For "Bodybody" (Body)
+For the prefix "t" (Time); "Acc" (Accelerometer); "Gyro" (Gyroscope); "Mag" (Magnitude); prefix "f" (Frequency); "Bodybody" (Body).

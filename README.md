@@ -1,5 +1,5 @@
 ##Getting and Cleaning Data Course Project
-This script prepares a tidy data set from data collected from accelerometers from the Samsung Galaxy S smartphone. Find a full description of the data here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+This script prepares a tidy data set from data collected from accelerometers from the Samsung Galaxy S smartphone. The data is from the Human Activity Recognition Using SmartPhones Data Set found on the UCI Machine Learning Repository. Find a full description of the data here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 The data can be downloaded here: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -35,7 +35,7 @@ The variable in "yData" is named "activity"
 The variables in "xData" are assigned names from the features.txt dataset.
 
 #Step 5:
-The subjectData, xData and yData are then combined into a single dataset "data" by useing the bind.cols() function.
+The subjectData, xData and yData are then combined into a single dataset "data" by using the bind.cols() function.
 
 #Step 6:
 All duplicate variables are dropped from the combined dataset using the !duplicated() function.
