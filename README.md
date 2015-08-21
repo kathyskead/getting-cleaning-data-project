@@ -1,4 +1,4 @@
-## Getting and Cleaning Data Course Project
+##Getting and Cleaning Data Course Project
 This script prepares a tidy data set from data collected from accelerometers from the Samsung Galaxy S smartphone. Find a full description of the data here: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 #Step 1:
@@ -7,6 +7,7 @@ Loads the "dplyr" library and sets the working directory.
 
 #Step 2:
 The following datasets are read into R with the read.table() function:
+
 test/subject_test.txt
 train/subject_train.txt
 
@@ -22,8 +23,8 @@ activity_labels.txt
 #Step 3:
 The row_bind() function is used to combine datasets:
 The subject datasets are combined into one dataset named "subjectData"
-The x table datasets are combined into one dataset named "xData".
-The y table datasets are combined into one dataset named "yData".
+The x test and train datasets are combined into one dataset named "xData".
+The y test and train datasets are combined into one dataset named "yData".
 
 #Step 4:
 The names() function is used to give variables in the datasets names:
@@ -35,7 +36,7 @@ The variables in "xData" are assigned names from the features.txt dataset.
 The subjectData, xData and yData are then combined into a single dataset "data" by useing the bind.cols() function.
 
 #Step 6:
-All duplicate variable are dropped from the "data" dataset using the !duplicated() function.
+All duplicate variables are dropped from the combined dataset using the !duplicated() function.
 
 #Step 7:
 Only the measurements on the mean and standard deviation for each measurement are extract from the dataset by selecting the following variables: activity, subject and any variables containing the names "mean" and "std".
