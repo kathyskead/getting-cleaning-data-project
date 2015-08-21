@@ -9,18 +9,17 @@ The script cleans up the work space,loads the "dplyr" library and sets the worki
 
 #Step 2:
 Only the following datasets are read into R with the read.table() function:
-
-test/subject_test.txt.
-train/subject_train.txt.
-
-test/X_test.txt.
-train/X_train.txt.
-
-test/y_test.txt.
-train/y_train.txt.
-
-features.txt.
-activity_labels.txt.
+test/subject_test.txt
+train/subject_train.txt
+<br>
+test/X_test.txt
+train/X_train.txt
+<br>
+test/y_test.txt
+train/y_train.txt
+<br>
+features.txt
+activity_labels.txt
 
 #Step 3:
 The row_bind() function is used to combine datasets:
