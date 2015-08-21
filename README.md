@@ -26,12 +26,12 @@ The row_bind() function is used to combine datasets:
 
 ##Step 4:
 The names() function is used to give variables in the datasets names:
-The variable in "subjectData" is named "subject".
-The variable in "yData" is named "activity"
-The variables in "xData" are assigned names from the features.txt dataset.
+The variable in the subjectData dataset is named "subject".
+The variable in the yData dataset is named "activity"
+The variables in the xData dataset are assigned names from the features.txt dataset.
 
 ##Step 5:
-The subjectData, xData and yData are then combined into a single dataset "data" by using the bind.cols() function.
+The subjectData, xData and yData datasets are then combined into a single dataset named "data" by using the bind.cols() function.
 
 ##Step 6:
 All duplicate variables are dropped from the combined dataset using the !duplicated() function.
