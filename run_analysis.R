@@ -45,7 +45,6 @@ names(data) <- gsub("Mag","Magnitude", names(data))
 names(data) <- gsub("^f","Frequency", names(data))
 names(data) <- gsub("BodyBody","Body", names(data))
 
-
 # Create a second, independent tidy data set with the average of each variable for 
 #each activity and each subject.
 tidydata <- aggregate(.~activity + subject, data, mean)
