@@ -26,8 +26,7 @@ names(yData) <- c("activity")
 names(xData) <- featureNames$V2
 
 # Combine columns to get one data set
-x <- bind_cols(subjectData,yData)
-data<- bind_cols(xData, x)
+data <- bind_cols(subjectData, yData, xData)
 
 # Drop duplicate columns
 data <- data[ !duplicated(names(data)) ]
